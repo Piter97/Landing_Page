@@ -1,0 +1,167 @@
+@media screen and (max-width: 1200px) and (min-width: 321px) {
+    #header .grids{
+        height: 35rem;
+    }
+
+    #header .adresses .links{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        height: 30%;
+    }
+
+    .adresses .useful_links{
+        right: 2%;
+        bottom: 35%;
+    }
+
+    .useful_links::after{
+        width: 5rem;
+    }
+
+    #navigate{
+        flex-direction: column;
+        right: 1%;
+        top: 3%;
+    }
+
+    .text{
+        top: 65%;
+        left: 5%;
+    }
+
+    #header .image{
+        width: 10em;
+        height: 10em;
+    }
+
+    #header .help{
+        position: relative;
+        height: 18rem;
+    }
+    
+    #header .help .input1{
+        top: 40%;
+        right: 45%;
+        left: auto;
+    }
+    
+    #header .help .input2{
+        top: 68%;
+        right: 45%;
+        left: auto;
+    }
+
+    main{
+        padding-bottom: 8rem;
+    }
+
+    #container1 .box .right p, .left p{
+        line-height: 1.2rem;
+        font-size: 1rem;
+        word-wrap: break-word;
+        hyphens: auto;
+    }
+
+    #container2{
+        height: 50rem;
+    }
+    
+    #container2 .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: auto;
+        margin: 0rem;
+        padding: 0rem;
+    }
+    
+    #container2 .box .hard{
+        padding-bottom: 3rem;
+        margin-bottom: 2rem;
+        left: 10%;
+        right: auto;
+        width: 80%;
+    }
+    
+    #container2 .box .soft{
+        padding-bottom: 3rem;
+        margin-bottom: 2rem;
+        left: 10%;
+        right: auto;
+        width: 80%;
+    }
+
+    #container3{
+        position: relative;
+        width: 80%;
+        height: auto;
+        left: 10%;
+        right: auto;
+        top: 5rem;
+    }
+    
+    #container3 #box{
+        display: grid;
+        grid-gap: 2em;
+        grid-template: auto / auto auto ;
+    }
+
+    /* MODYFIKCJA - CENTER */
+    /* #container3 #box .photo:last-of-type{
+        align-items: center;
+        border: solid black;
+    } */
+
+    #foot {
+        height: 75rem;
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    #foot .grids{
+        grid-template-columns: 100%;
+        grid-auto-rows: 35% 65%;
+        padding: 1% 10% 0% 10%;
+        width: 80%;
+    }
+
+    #foot .left p{
+        line-height: 1.5em;
+        font-size: 0.8rem;
+    }
+    
+    #foot .left .text{
+        line-height: 0em;
+        text-align: justify;
+        hyphens: auto;
+        word-wrap: break-word;
+    }
+    
+    #foot .left .mail{
+        position: absolute;
+        word-wrap: break-word;
+        width: 90%;
+        bottom: 0.5em;
+    }
+    
+    #foot .left .mail .adress{
+        bottom: 5%;
+        right: 0em;
+    }
+
+    #foot .left .mail .links {
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 1rem 20rem 1rem 0rem;
+    }
+
+    #foot .grids .right .container .contact_properties{
+        width: 80%;
+    }
+    
+    #foot .writeArea{
+        height: 60%;
+        width: 100%;
+    }
+}
