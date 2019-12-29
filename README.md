@@ -1,2 +1,2 @@
 # Landing_page
- https://piter97.github.io/Landing_page/index.html
+ https://pdybowski.github.io/Landing_page/index.html
